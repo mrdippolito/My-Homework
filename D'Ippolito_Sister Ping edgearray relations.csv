@@ -1,0 +1,293 @@
+ID,Relationship,Business,Criminal,Family,Financial,Law Enforcement,Rival,ViolenceMurder,Other,Informant,Friendship
+Alan Tam,Dan Xin Lin,0,1,0,0,0,0,0,0,0,0
+Alan Tam,FBI,0,0,0,0,0,0,0,0,1,0
+Alan Tam,Guo Liang Qi,0,1,0,0,0,0,0,0,0,0
+Alan Tam,Guo Liang Qi,0,0,0,0,0,0,0,0,0,1
+Alan Tam,Guo Liang Qun,0,1,0,0,0,0,0,0,0,0
+Alan Tam,Guo Liang Wang,0,1,0,0,0,0,0,0,0,0
+Amir Tobing,Kin Sin Lee,0,1,0,0,0,0,0,0,0,0
+Amir Tobing,Lee Peng Fei,0,1,0,0,0,0,0,0,0,0
+Amir Tobing,Sam Lwin,0,1,0,0,0,0,0,0,0,0
+Bankok Immigration Officials,Susan Cheng,0,1,0,0,0,0,0,0,0,0
+Biao Chen,Cheng Chui Ping,0,0,0,1,0,0,0,0,0,0
+Chao Lin Feng,Chang Lian Lin,0,0,0,0,0,0,1,0,0,0
+Chao Lin Feng,Cho Lee Lin,0,1,0,0,0,0,0,0,0,0
+Chao Lin Feng,Dan Xin Lin,0,1,0,0,0,0,0,0,0,0
+Chao Lin Feng,Guan Sheng Li,0,0,0,0,0,0,1,0,0,0
+Chao Lin Feng,Guo Liang Qi,0,1,0,0,0,0,0,0,0,0
+Chao Lin Feng,Guo Liang Qi,0,0,0,0,0,1,0,0,0,0
+Chao Lin Feng,Guo Liang Qun,0,0,0,0,0,0,1,0,0,0
+Chao Lin Feng,Guo Liang Wang,0,0,0,0,0,0,1,0,0,0
+Chao Lin Feng,Jeffrey Zhu,0,1,0,0,0,0,0,0,0,0
+Chao Lin Feng,Lin Yun,0,1,0,0,0,0,0,0,0,0
+Chao Lin Feng,Shing Chung,0,1,0,0,0,0,0,0,0,0
+Chao Lin Feng,Simon Lau,0,1,0,0,0,0,0,0,0,0
+Chao Lin Feng,Yu Ping Zhang,0,0,0,0,0,0,1,0,0,0
+Cheng Chai Leung,Cheng Chui Ping,0,0,1,0,0,0,0,0,0,0
+Cheng Chai Leung,Cheng Mei Yeung,0,0,1,0,0,0,0,0,0,0
+Cheng Chai Leung,Susan Cheng,0,0,1,0,0,0,0,0,0,0
+Cheng Chui Ping,Cheng Chai Leung,0,0,1,0,0,0,0,0,0,0
+Cheng Chui Ping,Cheng Hui Mui,0,0,1,0,0,0,0,0,0,0
+Cheng Chui Ping,Cheng Mei Yeung,0,0,1,0,0,0,0,0,0,0
+Cheng Chui Ping,Cheng Mei Yeung,0,1,0,0,0,0,0,0,0,0
+Cheng Chui Ping,Cheng Yik Tak,0,0,1,0,0,0,0,0,0,0
+Cheng Chui Ping,Cheng Yik Tak,0,1,0,0,0,0,0,0,0,0
+Cheng Chui Ping,FBI,0,0,0,0,0,0,0,0,1,0
+Cheng Chui Ping,Gloria Canales,0,0,0,0,0,1,0,0,0,0
+Cheng Chui Ping,Guo Liang Qi,1,0,0,0,0,0,0,0,0,0
+Cheng Chui Ping,Guo Liang Qi,0,1,0,0,0,0,0,0,0,0
+Cheng Chui Ping,Guo Liang Qi,0,0,0,0,0,1,0,0,0,0
+Cheng Chui Ping,Guo Liang Qi,0,0,0,1,0,0,0,0,0,0
+Cheng Chui Ping,Guo Liang Qi,0,0,0,0,0,0,0,0,1,0
+Cheng Chui Ping,Larry Hay,0,0,0,1,0,0,0,0,0,0
+Cheng Chui Ping,Lee Peng Fei,0,1,0,0,0,0,0,0,0,0
+Cheng Chui Ping,Lee Peng Fei,0,0,0,1,0,0,0,0,0,0
+Cheng Chui Ping,Peter Lee,0,0,0,0,0,0,0,0,0,1
+Cheng Chui Ping,Public Security Officials,0,1,0,0,0,0,0,0,0,0
+Cheng Chui Ping,Susan Cheng,0,0,1,0,0,0,0,0,0,0
+Cheng Chui Ping,Susan Cheng,0,1,0,0,0,0,0,0,0,0
+Cheng Chui Ping,Terry Honesburger,0,0,0,1,0,0,0,0,0,0
+Cheng Chui Ping,Wai Wei Cheng,0,0,1,0,0,0,0,0,0,0
+Cheng Chui Ping,Wang Kong Fu,0,1,0,0,0,0,0,0,0,0
+Cheng Chui Ping,Wang Kong Fu,0,0,0,0,0,0,0,0,0,1
+Cheng Chui Ping,Weng Yu Hui,0,1,0,0,0,0,0,0,0,0
+Cheng Chui Ping,Weng Yu Hui,0,0,0,1,0,0,0,0,0,0
+Cheng Chui Ping,Golden Venture Passengers,0,1,0,0,0,0,0,0,0,0
+Cheng Chui Ping,Weng Yu Hui,0,0,0,0,0,1,0,0,0,0
+Cheng Hui Mui,Cheng Chui Ping,0,0,1,0,0,0,0,0,0,0
+Cheng Hui Mui,Cheng Yik Tak,0,0,1,0,0,0,0,0,0,0
+Cheng Mei Yeung,Golden Venture Passengers,0,1,0,0,0,0,0,0,0,0
+Cheng Mei Yeung,Cheng Chui Ping,0,0,1,0,0,0,0,0,0,0
+Cheng Mei Yeung,Cheng Chui Ping,0,1,0,0,0,0,0,0,0,0
+Cheng Mei Yeung,Lau Xing Bau,0,1,0,0,0,0,0,0,0,0
+Cheng Mei Yeung,Lee Peng Fei,0,1,0,0,0,0,0,0,0,0
+Cheng Mei Yeung,Public Security Officials,0,1,0,0,0,0,0,0,0,0
+Cheng Mei Yeung,Susan Cheng,0,0,1,0,0,0,0,0,0,0
+Cheng Yik Tak,Cheng Chui Ping,0,0,1,0,0,0,0,0,0,0
+Cheng Yik Tak,Cheng Chui Ping,0,1,0,0,0,0,0,0,0,0
+Cheng Yik Tak,Cheng Hui Mui,0,0,1,0,0,0,0,0,0,0
+Cheng Yik Tak,Minh Hoang,0,1,0,0,0,0,0,0,0,0
+Cheng Yik Tak,Susan Cheng,0,0,1,0,0,0,0,0,0,0
+Cheng Yik Tak,Wai Wei Cheng,0,0,1,0,0,0,0,0,0,0
+Cheng Yik Tak,Wang Kong Fu,0,0,0,0,0,1,0,0,0,0
+Cheng Yik Tak,Guo Liang Qi,0,0,0,1,0,0,0,0,0,0
+Cho Lee Lin,Chang Lian Lin,0,0,0,0,0,0,1,0,0,0
+Cho Lee Lin,Chao Lin Feng,0,1,0,0,0,0,0,0,0,0
+Cho Lee Lin,Dan Xin Lin,0,1,0,0,0,0,0,0,0,0
+Cho Lee Lin,Guan Sheng Li,0,0,0,0,0,0,1,0,0,0
+Cho Lee Lin,Guo Liang Qi,0,1,0,0,0,0,0,0,0,0
+Cho Lee Lin,Guo Liang Qi,0,0,0,0,0,1,0,0,0,0
+Cho Lee Lin,Guo Liang Qun,0,0,0,0,0,0,1,0,0,0
+Cho Lee Lin,Guo Liang Wang,0,0,0,0,0,0,1,0,0,0
+Cho Lee Lin,Jeffrey Zhu,0,1,0,0,0,0,0,0,0,0
+Cho Lee Lin,Lin Yun,0,1,0,0,0,0,0,0,0,0
+Cho Lee Lin,Shing Chung,0,1,0,0,0,0,0,0,0,0
+Cho Lee Lin,Simon Lau,0,1,0,0,0,0,0,0,0,0
+Cho Lee Lin,Yu Ping Zhang,0,0,0,0,0,0,1,0,0,0
+Cho Yee Yeung,Guo Liang Qi,0,1,0,0,0,0,0,0,0,0
+Dan Xin Lin,Alan Tam,0,1,0,0,0,0,0,0,0,0
+Dan Xin Lin,Chang Lian Lin,0,0,0,0,0,0,1,0,0,0
+Dan Xin Lin,Chao Lin Feng,0,1,0,0,0,0,0,0,0,0
+Dan Xin Lin,Cho Lee Lin,0,1,0,0,0,0,0,0,0,0
+Dan Xin Lin,FBI,0,0,0,0,0,0,0,0,1,0
+Dan Xin Lin,Guan Sheng Li,0,0,0,0,0,0,1,0,0,0
+Dan Xin Lin,Guo Liang Qi,0,0,0,0,0,1,0,0,0,0
+Dan Xin Lin,Guo Liang Qi,0,1,0,0,0,0,0,0,0,0
+Dan Xin Lin,Guo Liang Qun,0,0,0,0,0,0,1,0,0,0
+Dan Xin Lin,Guo Liang Wang,0,0,0,0,0,0,1,0,0,0
+Dan Xin Lin,Jeffrey Zhu,0,1,0,0,0,0,0,0,0,0
+Dan Xin Lin,Lin Yun,0,1,0,0,0,0,0,0,0,0
+Dan Xin Lin,Shing Chung,0,1,0,0,0,0,0,0,0,0
+Dan Xin Lin,Simon Lau,0,1,0,0,0,0,0,0,0,0
+Dan Xin Lin,Yu Ping Zhang,0,0,0,0,0,0,1,0,0,0
+DEA,INS,0,0,0,0,1,0,0,0,0,0
+Dickson Yao,Jerry Stuchiner,0,1,0,0,0,0,0,0,0,0
+Dickson Yao,Jerry Stuchiner,0,0,0,0,0,0,0,0,0,1
+Dickson Yao,Cheng Chui Ping,0,0,0,0,0,0,0,1,0,0
+Dickson Yao,Guo Liang Qi,0,0,0,0,0,0,0,1,0,0
+Dickson Yao,INS,0,0,0,0,0,0,0,0,1,0
+Dickson Yao,DEA,0,0,0,0,0,0,0,0,1,0
+FBI,Alan Tam,0,0,0,0,1,0,0,0,0,0
+FBI,INS,0,0,0,0,1,0,0,0,0,0
+Guo Chiwu,Guo Liang Qi,0,0,1,0,0,0,0,0,0,0
+Guo Chiwu,Guo Liang Qun,0,0,1,0,0,0,0,0,0,0
+Guo Chiwu,Guo Liang Wang,0,0,1,0,0,0,0,0,0,0
+Guo Liang Qi,Alan Tam,0,1,0,0,0,0,0,0,0,0
+Guo Liang Qi,Alan Tam,0,0,0,0,0,0,0,0,0,1
+Guo Liang Qi,Chao Lin Feng,0,1,0,0,0,0,0,0,0,0
+Guo Liang Qi,Cheng Chui Ping,1,0,0,0,0,0,0,0,0,0
+Guo Liang Qi,Cheng Chui Ping,0,1,0,0,0,0,0,0,0,0
+Guo Liang Qi,Cheng Chui Ping,0,0,0,0,0,0,0,0,1,0
+Guo Liang Qi,Cheng Chui Ping,0,0,0,0,0,0,1,0,0,0
+Guo Liang Qi,Cheng Chui Ping,0,0,0,1,0,0,0,0,0,0
+Guo Liang Qi,Cheng Hui Mui,0,0,0,0,0,0,1,0,0,0
+Guo Liang Qi,Cho Lee Lin,0,1,0,0,0,0,0,0,0,0
+Guo Liang Qi,Cho Yee Yeung,0,1,0,0,0,0,0,0,0,0
+Guo Liang Qi,Cho Yee Yeung,0,1,0,0,0,0,0,0,0,0
+Guo Liang Qi,Dan Xin Lin,0,1,0,0,0,0,0,0,0,0
+Guo Liang Qi,Dan Xin Lin,0,0,0,0,0,0,1,0,0,0
+Guo Liang Qi,Guo Chiwu,0,0,1,0,0,0,0,0,0,0
+Guo Liang Qi,Guo Liang Qun,0,0,1,0,0,0,0,0,0,0
+Guo Liang Qi,Guo Liang Wang,0,0,1,0,0,0,0,0,0,0
+Guo Liang Qi,Jeffrey Zhu,0,1,0,0,0,0,0,0,0,0
+Guo Liang Qi,Lee Peng Fei,0,1,0,0,0,0,0,0,0,0
+Guo Liang Qi,Li Xing Hua,0,1,0,0,0,0,0,0,0,0
+Guo Liang Qi,Lin Yun,0,1,0,0,0,0,0,0,0,0
+Guo Liang Qi,Lo Cho,0,1,0,0,0,0,0,0,0,0
+Guo Liang Qi,Ronald Chau,0,1,0,0,0,0,0,0,0,0
+Guo Liang Qi,Shing Chung,0,1,0,0,0,0,0,0,0,0
+Guo Liang Qi,Simon Lau,0,1,0,0,0,0,0,0,0,0
+Guo Liang Qi,Song You Lin,0,1,0,0,0,0,0,0,0,0
+Guo Liang Qi,Weng Yu Hui,0,1,0,0,0,0,0,0,0,0
+Guo Liang Qi,Wang Kong Fu,0,1,0,0,0,0,0,0,0,0
+Guo Liang Qun,Alan Tam,0,1,0,0,0,0,0,0,0,0
+Guo Liang Qun,Guo Chiwu,0,0,1,0,0,0,0,0,0,0
+Guo Liang Qun,Guo Liang Qi,0,0,1,0,0,0,0,0,0,0
+Guo Liang Qun,Guo Liang Wang,0,0,1,0,0,0,0,0,0,0
+Guo Liang Wang,Alan Tam,0,1,0,0,0,0,0,0,0,0
+Guo Liang Wang,Guo Chiwu,0,0,1,0,0,0,0,0,0,0
+Guo Liang Wang,Guo Liang Qi,0,0,1,0,0,0,0,0,0,0
+Guo Liang Wang,Guo Liang Qun,0,0,1,0,0,0,0,0,0,0
+INS,Jerry Stuchiner,0,0,0,0,1,0,0,0,0,0
+INS,DEA,0,0,0,0,1,0,0,0,0,0
+INS,FBI,0,0,0,0,1,0,0,0,0,0
+James Dullan,Cheng Yik Tak,0,1,0,0,0,0,0,0,0,0
+James Dullan,Minh Hoang,0,1,0,0,0,0,0,0,0,0
+James Dullan,Niagara County Police,0,0,0,0,0,0,0,0,1,0
+James Dullan,Richard Kephardt,0,0,0,0,0,0,0,0,0,1
+James Dullan,Wai Wei Cheng,0,1,0,0,0,0,0,0,0,0
+Jeffrey Zhu,Chang Lian Lin,0,0,0,0,0,0,1,0,0,0
+Jeffrey Zhu,Chao Lin Feng,0,1,0,0,0,0,0,0,0,0
+Jeffrey Zhu,Cho Lee Lin,0,1,0,0,0,0,0,0,0,0
+Jeffrey Zhu,Dan Xin Lin,0,1,0,0,0,0,0,0,0,0
+Jeffrey Zhu,Guan Sheng Li,0,0,0,0,0,0,1,0,0,0
+Jeffrey Zhu,Guo Liang Qi,0,1,0,0,0,0,0,0,0,0
+Jeffrey Zhu,Guo Liang Qi,0,0,0,0,0,1,0,0,0,0
+Jeffrey Zhu,Guo Liang Qun,0,0,0,0,0,0,1,0,0,0
+Jeffrey Zhu,Guo Liang Wang,0,0,0,0,0,0,1,0,0,0
+Jeffrey Zhu,Lin Yun,0,1,0,0,0,0,0,0,0,0
+Jeffrey Zhu,Shing Chung,0,1,0,0,0,0,0,0,0,0
+Jeffrey Zhu,Simon Lau,0,1,0,0,0,0,0,0,0,0
+Jeffrey Zhu,Yu Ping Zhang,0,0,0,0,0,0,1,0,0,0
+Jerry Stuchiner,Dickson Yao,0,1,0,0,0,0,0,0,0,0
+Jerry Stuchiner,Dickson Yao,0,0,0,0,1,0,0,0,0,0
+Jerry Stuchiner,Dickson Yao,0,0,0,0,0,0,0,0,0,1
+Jerry Stuchiner,INS,0,0,0,0,1,0,0,0,0,0
+Kenny Feng,Cheng Chui Ping,0,1,0,0,0,0,0,0,0,0
+Kenny Feng,Mr. Salman,0,1,0,0,0,0,0,0,0,0
+Kenny Feng,Mrs. Salman,0,1,0,0,0,0,0,0,0,0
+Kenny Feng,Sandy Chen,0,0,0,0,0,0,0,1,0,0
+Kin Sin Lee,Golden Venture Passengers,0,0,0,0,0,0,0,1,0,0
+Kin Sin Lee,Amir Tobing,0,1,0,0,0,0,0,0,0,0
+Kin Sin Lee,Amir Tobing,0,0,0,0,0,0,1,0,0,0
+Kin Sin Lee,Lee Peng Fei,0,1,0,0,0,0,0,0,0,0
+Kin Sin Lee,Sam Lwin,0,1,0,0,0,0,0,0,0,0
+Lau Xing Bau,Golden Venture Passengers,0,1,0,0,0,0,0,0,0,0
+Lau Xing Bau,Cheng Mei Yeung,0,1,0,0,0,0,0,0,0,0
+Lau Xing Bau,Lee Peng Fei,0,1,0,0,0,0,0,0,0,0
+Larry Hay,Terry Honesburger,0,0,0,0,1,0,0,0,0,0
+Lee Hui Mei,Cheng Chui Ping,0,0,0,1,0,0,0,0,0,0
+Lee Peng Fei,Amir Tobing,0,1,0,0,0,0,0,0,0,0
+Lee Peng Fei,Cheng Chui Ping,0,1,0,0,0,0,0,0,0,0
+Lee Peng Fei,Cheng Mei Yeung,0,1,0,0,0,0,0,0,0,0
+Lee Peng Fei,Guo Liang Qi,0,1,0,0,0,0,0,0,0,0
+Lee Peng Fei,Kin Sin Lee,0,1,0,0,0,0,0,0,0,0
+Lee Peng Fei,Lau Xing Bau,0,1,0,0,0,0,0,0,0,0
+Lee Peng Fei,Weng Yu Hui,0,1,0,0,0,0,0,0,0,0
+Lee Peng Fei,William Appleton,0,1,0,0,0,0,0,0,0,0
+Lin Yun,Chang Lian Lin,0,0,0,0,0,0,1,0,0,0
+Lin Yun,Chao Lin Feng,0,1,0,0,0,0,0,0,0,0
+Lin Yun,Cho Lee Lin,0,1,0,0,0,0,0,0,0,0
+Lin Yun,Dan Xin Lin,0,1,0,0,0,0,0,0,0,0
+Lin Yun,Guan Sheng Li,0,0,0,0,0,0,1,0,0,0
+Lin Yun,Guo Liang Qi,0,1,0,0,0,0,0,0,0,0
+Lin Yun,Guo Liang Qi,0,0,0,0,0,1,0,0,0,0
+Lin Yun,Guo Liang Qun,0,0,0,0,0,0,1,0,0,0
+Lin Yun,Guo Liang Wang,0,0,0,0,0,0,1,0,0,0
+Lin Yun,Jeffrey Zhu,0,1,0,0,0,0,0,0,0,0
+Lin Yun,Shing Chung,0,1,0,0,0,0,0,0,0,0
+Lin Yun,Simon Lau,0,1,0,0,0,0,0,0,0,0
+Lin Yun,Yu Ping Zhang,0,0,0,0,0,0,1,0,0,0
+Li Xing Hua,Guo Liang Qi,0,1,0,0,0,0,0,0,0,0
+Lo Cho,Guo Liang Qi,0,1,0,0,0,0,0,0,0,0
+Minh Hoang,Cheng Yik Tak,0,1,0,0,0,0,0,0,0,0
+Minh Hoang,James Dullan,0,1,0,0,0,0,0,0,0,0
+Minh Hoang,Richard Kephardt,0,1,0,0,0,0,0,0,0,0
+Minh Hoang,Wai Wei Cheng,0,1,0,0,0,0,0,0,0,0
+Mr. Salman,Mrs. Salman,0,0,1,0,0,0,0,0,0,0
+Mr. Salman,Kenny Feng,0,1,0,0,0,0,0,0,0,0
+Mrs. Salman,Mr. Salman,0,0,1,0,0,0,0,0,0,0
+Mrs. Salman,Kenny Feng,0,1,0,0,0,0,0,0,0,0
+Niagara County Police,James Dullan,0,0,0,0,1,0,0,0,0,0
+Niagara County Police,Richard Kephardt,0,0,0,0,1,0,0,0,0,0
+Peter Lee,FBI,0,0,0,0,1,0,0,0,0,0
+Peter Lee,Cheng Chui Ping,0,0,0,0,1,0,0,0,0,0
+Public Security Officials,Cheng Chui Ping,0,1,0,0,0,0,0,0,0,0
+Richard Kephardt,Cheng Yik Tak,0,1,0,0,0,0,0,0,0,0
+Richard Kephardt,James Dullan,0,1,0,0,0,0,0,0,0,0
+Richard Kephardt,Minh Hoang,0,1,0,0,0,0,0,0,0,0
+Richard Kephardt,Niagara County Police,0,0,0,0,0,0,0,0,1,0
+Richard Kephardt,Wai Wei Cheng,0,1,0,0,0,0,0,0,0,0
+Robert Porges,Sheery Porges,0,0,1,0,0,0,0,0,0,0
+Robert Porges,Sheery Porges,0,1,0,0,0,0,0,0,0,0
+Robert Porges,Golden Venture Passengers,0,0,0,0,0,0,0,1,0,0
+Ronald Chau,Guo Liang Qi,0,1,0,0,0,0,0,0,0,0
+Sam Lwin,Amir Tobing,0,1,0,0,0,0,0,0,0,0
+Sam Lwin,Kin Sin Lee,0,1,0,0,0,0,0,0,0,0
+Sam Lwin,Zaw Moe,0,1,0,0,0,0,0,0,0,0
+Sandy Chen,Kenny Feng,0,0,0,0,0,0,0,1,0,0
+Sheery Porges,Robert Porges,0,0,1,0,0,0,0,0,0,0
+Sheery Porges,Robert Porges,0,1,0,0,0,0,0,0,0,0
+Shing Chung,Chang Lian Lin,0,0,0,0,0,0,1,0,0,0
+Shing Chung,Chao Lin Feng,0,1,0,0,0,0,0,0,0,0
+Shing Chung,Cho Lee Lin,0,1,0,0,0,0,0,0,0,0
+Shing Chung,Dan Xin Lin,0,1,0,0,0,0,0,0,0,0
+Shing Chung,Guan Sheng Li,0,0,0,0,0,0,1,0,0,0
+Shing Chung,Guo Liang Qi,0,1,0,0,0,0,0,0,0,0
+Shing Chung,Guo Liang Qi,0,0,0,0,0,1,0,0,0,0
+Shing Chung,Guo Liang Qun,0,0,0,0,0,0,1,0,0,0
+Shing Chung,Guo Liang Wang,0,0,0,0,0,0,1,0,0,0
+Shing Chung,Jeffrey Zhu,0,1,0,0,0,0,0,0,0,0
+Shing Chung,Lin Yun,0,1,0,0,0,0,0,0,0,0
+Shing Chung,Simon Lau,0,1,0,0,0,0,0,0,0,0
+Shing Chung,Yu Ping Zhang,0,0,0,0,0,0,1,0,0,0
+Simon Lau,Chang Lian Lin,0,0,0,0,0,0,1,0,0,0
+Simon Lau,Chao Lin Feng,0,1,0,0,0,0,0,0,0,0
+Simon Lau,Cho Lee Lin,0,1,0,0,0,0,0,0,0,0
+Simon Lau,Dan Xin Lin,0,1,0,0,0,0,0,0,0,0
+Simon Lau,Guan Sheng Li,0,0,0,0,0,0,1,0,0,0
+Simon Lau,Guo Liang Qi,0,1,0,0,0,0,0,0,0,0
+Simon Lau,Guo Liang Qi,0,0,0,0,0,1,0,0,0,0
+Simon Lau,Guo Liang Qun,0,0,0,0,0,0,1,0,0,0
+Simon Lau,Guo Liang Wang,0,0,0,0,0,0,1,0,0,0
+Simon Lau,Jeffrey Zhu,0,1,0,0,0,0,0,0,0,0
+Simon Lau,Lin Yun,0,1,0,0,0,0,0,0,0,0
+Simon Lau,Shing Chung,0,1,0,0,0,0,0,0,0,0
+Simon Lau,Yu Ping Zhang,0,0,0,0,0,0,1,0,0,0
+Song You Lin,Dan Xin Lin,0,0,0,0,0,0,1,0,0,0
+Song You Lin,Guo Liang Qi,0,1,0,0,0,0,0,0,0,0
+Susan Cheng,Cheng Chai Leung,0,0,1,0,0,0,0,0,0,0
+Susan Cheng,Bankok Immigration Officials,0,1,0,0,0,0,0,0,0,0
+Susan Cheng,Cheng Chui Ping,0,0,1,0,0,0,0,0,0,0
+Susan Cheng,Cheng Chui Ping,0,1,0,0,0,0,0,0,0,0
+Susan Cheng,Cheng Mei Yeung,0,0,1,0,0,0,0,0,0,0
+Susan Cheng,Cheng Yik Tak,0,0,1,0,0,0,0,0,0,0
+Susan Cheng,Wai Wei Cheng,0,0,1,0,0,0,0,0,0,0
+Terry Honesburger,Cheng Chui Ping,0,0,0,0,0,0,0,0,1,0
+Wai Wei Cheng,Cheng Chui Ping,0,0,1,0,0,0,0,0,0,0
+Wai Wei Cheng,Cheng Yik Tak,0,0,1,0,0,0,0,0,0,0
+Wai Wei Cheng,Cheng Yik Tak,0,0,0,0,0,0,0,0,1,0
+Wai Wei Cheng,James Dullan,0,1,0,0,0,0,0,0,0,0
+Wai Wei Cheng,Minh Hoang,0,1,0,0,0,0,0,0,0,0
+Wai Wei Cheng,Richard Kephardt,0,1,0,0,0,0,0,0,0,0
+Wai Wei Cheng,Susan Cheng,0,0,1,0,0,0,0,0,0,0
+Wang Kong Fu,Cheng Chui Ping,0,1,0,0,0,0,0,0,0,0
+Wang Kong Fu,Cheng Chui Ping,0,0,0,0,0,0,0,0,0,1
+Wang Kong Fu,Guo Liang Qi,0,1,0,0,0,0,0,0,0,0
+Weng Yu Hui,Cheng Chui Ping,0,0,0,1,0,0,0,0,0,0
+Weng Yu Hui,Cheng Mei Yeung,0,1,0,0,0,0,0,0,0,0
+Weng Yu Hui,Guo Liang Qi,0,1,0,0,0,0,0,0,0,0
+Weng Yu Hui,Golden Venture Passengers,0,1,0,0,0,0,0,0,0,0
+Weng Yu Hui,Lau Xing Bau,0,1,0,0,0,0,0,0,0,0
+Weng Yu Hui,Lee Peng Fei,0,1,0,0,0,0,0,0,0,0
+William Appleton,Lee Peng Fei,0,1,0,0,0,0,0,0,0,0

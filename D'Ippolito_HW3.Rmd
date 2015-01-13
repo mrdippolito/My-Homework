@@ -1,0 +1,130 @@
+---
+title: "Day 3 Homework"
+output: html_document
+---
+```{r}
+library(reshape2)
+```
+
+The goal of this homework is to get practice with manipulating data.
+
+1. Make both a "wide" and a "long" version of your data
+
+```{r}
+#read data into R
+setwd("~/R/Homework")
+mySP <- read.csv("SPTimePeriods.csv")
+#create a relationship ID variable to help make sure that data is not aggregated across individuals when melted and aggregated differently
+mySP$RelID <- 1:nrow(mySP)
+mySP$RelID <- paste("Rel", 1:nrow(mySP), sep = "")
+head(mySP)
+#melt data to form a "long" version
+mySP.melt <- melt(mySP, id.vars = c("RelID", "ID", "Relationship"), value.name = "relationship.type", variable.name = "time.period")
+summary(mySP.melt)
+head(mySP.melt)
+
+#recast data to make a "wide" version of the dataset again
+levels(mySP.melt$time.period)
+mySP.cast <- dcast(mySP.melt, RelID + ID + Relationship ~ time.period, value.var = "relationship.type")
+head(mySP.cast)
+
+```
+
+2. Transform a variable
+
+```{r}
+#creates a new column for the count of the number of relationships across time periods
+
+mySP.cast$T0 <- NULL
+head(mySP.cast)
+```
+
+3. Recode a factor
+
+```{r}
+
+#recode the factor T1 so that it is not numerical
+
+levels(mySP.cast$T1) <- c("noRel", "bus", "crim", "fam", "fin", "pol", "law", "rival", "mdr", "other", "info", "friend")
+levels(mySP.cast$T1)
+head(mySP.cast)
+
+```
+
+4. Add a new factor, where the levels are conditional on the values of some other variable. E.g., a factor of "high", "medium", and "low" based on thresholds for another variable.
+
+```{r}
+mySP.melt
+levels(mySP.melt$time.periods)
+#I'm having trouble with this one. I thought at first that by using the long version of the data I could create a factor that was "pre" and "post" T6, which is considered a turning point. But for some reason, when i come back to the .melt (aka long) version of the dataset after having worked with the wide version (.cast), it says the levels are null, when above there are the 13 levels indicated as values. I am not sure what is happening to cause this, but it interferes with trying to determine the code fro the rest of it.
+
+# the steps I think I need to take to add the new factor are: assign what "pre" and "post" mean for the column time.periods then set them as the levels in the new factor and somehow confirm that they are being assigned row by row, not on an aggregate basis.
+# "pre" <- mySP.melt$time.periods <= "T6"
+# "post" <- mySP.melt$time.periods > "T7"
+# mySP.melt$time.period <- factor(mySP.melt$time.period, level = c("pre", "post"))
+# mySP.melt$turning.pt <- as.factor(mySP.melt$time.period)
+# head(mySP.melt)
+
+#Also for some reason, by doing this manipulation it turns all my values in time.period and turning.pt to NA instead of what they actually are. I am not sure why.
+
+
+#Take 2 - see below
+mySP.melt$turnpt <- "Pre"
+head(mySP.melt)
+mySP.melt$turnpt[mySP.melt$time.period %in% c("T7", "T8", "T9", "T10", "T11", "T12")] <- "Post"
+mySP.melt$turnpt <- factor(mySP.melt$turnpt, level = c("Pre", "Post"))
+head(mySP.melt)
+levels(mySP.melt$turnpt)
+xtabs(~ turnpt + time.period, mySP.melt)
+
+```
+
+
+5. Reorder the levels of this new factor
+
+
+```{r}
+
+#see above for difficulty creating the new factor. To reorder the factor, I would use the code below:
+mySP.melt$turnpt <- relevel(mySP.melt$turnpt, "Post")
+levels(mySP.melt$turnpt)
+
+# Take 2 - see below
+
+
+```
+
+6. Choose a factor that could be re-coded as multiple dimensions (recall the sepal/petal vs. length/width breakdown). If you don't have one, try to create one.  Now create two (or more) new factors that represent these dimensions.
+
+```{r}
+
+#looking at the difference between criminal and non criminal relationships across time periods.
+
+mySP.melt$Dimension <- "criminal"
+head(mySP.melt)
+mySP.melt$Dimension[mySP.melt$relationship.type != "2"] <- "not criminal"
+xtabs(~ Dimension + time.period, mySP.melt)
+
+
+#looking at the difference between familial and non familial relationships across time periods.
+
+mySP.melt$Dimension <- "family"
+head(mySP.melt)
+mySP.melt$Dimension[mySP.melt$relationship.type != "3"] <- "not family"
+xtabs(~ Dimension + time.period, mySP.melt)
+
+```
+
+7. Using `dcast`, aggregate some variable into "cell means" of some kind.
+
+```{r}
+
+#I believe this is the correct code sequence but it's not showing up for all values. Some values in "criminal" are returning with "NaN"
+
+mySP.agg1 <- dcast(mySP.melt, RelID + ID + Relationship ~ Dimension, value.var = "relationship.type", fun.aggregate = mean)
+head(mySP.agg1)
+
+```
+
+8.  Save all of the above in a well-documented R Markdown document.  Email me the .Rmd file (and if you use different or updated data from Day 2 Homework, send that to me, too).
+

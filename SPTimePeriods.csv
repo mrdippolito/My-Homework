@@ -1,0 +1,293 @@
+ID,Relationship,T0,T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12
+Alan_Tam,Dan_Xin_Lin,0,2,2,2,2,2,2,0,0,0,0,0,0
+Alan_Tam,FBI,0,0,0,0,0,0,10,0,0,0,0,0,0
+Alan_Tam,Guo_Liang_Qi,0,2,2,2,2,2,2,0,0,0,0,0,0
+Alan_Tam,Guo_Liang_Qi,0,13,13,13,13,13,13,13,13,13,0,0,0
+Alan_Tam,Guo Liang Qun,0,2,2,2,2,2,2,0,0,0,0,0,0
+Alan_Tam,Guo_Liang_Wang,0,2,2,2,2,2,2,0,0,0,0,0,0
+Amir_Tobing,Kin_Sin_Lee,0,0,0,0,2,2,2,0,0,0,0,0,0
+Amir_Tobing,Lee_Peng_Fei,0,0,0,0,2,2,2,0,0,0,0,0,0
+Amir_Tobing,Sam_Lwin,0,0,0,0,2,2,2,0,0,0,0,0,0
+Bangkok_Imm,Susan_Cheng,2,2,2,0,0,0,0,0,0,0,0,0,0
+Biao_Chen,Cheng_Chui_Ping,0,0,0,0,0,0,0,0,0,4,0,0,0
+Chao_Lin_Feng,Chang Lian Lin,0,0,0,0,0,0,8,0,0,0,0,0,0
+Chao_Lin_Feng,Cho_Lee_Lin,0,2,2,2,2,2,2,0,0,0,0,0,0
+Chao_Lin_Feng,Dan_Xin_Lin,0,2,2,2,2,2,2,0,0,0,0,0,0
+Chao_Lin_Feng,Guan Sheng Li,0,0,0,0,0,0,8,0,0,0,0,0,0
+Chao_Lin_Feng,Guo_Liang_Qi,0,2,2,2,0,0,0,0,0,0,0,0,0
+Chao_Lin_Feng,Guo_Liang_Qi,0,0,0,0,7,7,7,0,0,0,0,0,0
+Chao_Lin_Feng,Guo Liang Qun,0,0,0,0,0,0,8,0,0,0,0,0,0
+Chao_Lin_Feng,Guo_Liang_Wang,0,0,0,0,0,0,8,0,0,0,0,0,0
+Chao_Lin_Feng,Jeffrey_Zhu,0,2,2,2,2,2,2,0,0,0,0,0,0
+Chao_Lin_Feng,Lin_Yun,0,2,2,2,2,2,2,0,0,0,0,0,0
+Chao_Lin_Feng,Shing_Chung,0,2,2,2,2,2,2,0,0,0,0,0,0
+Chao_Lin_Feng,Simon_Lau,0,2,2,2,2,2,2,0,0,0,0,0,0
+Chao_Lin_Feng,Yu_Ping_Zhang,0,0,0,0,0,0,8,0,0,0,0,0,0
+Cheng_Chai_Leung,Cheng_Chui_Ping,3,3,3,3,3,3,3,3,3,3,3,3,3
+Cheng_Chai_Leung,Cheng_Mei_Yeung,3,3,3,3,3,3,3,3,3,3,3,3,3
+Cheng_Chai_Leung,Susan_Cheng,3,3,3,3,3,3,3,3,3,3,3,3,3
+Cheng_Chui_Ping,Cheng_Chai_Leung,3,3,3,3,3,3,3,3,3,3,3,3,3
+Cheng_Chui_Ping,Cheng_Hui_Mui,3,3,3,3,3,3,3,3,3,3,3,3,3
+Cheng_Chui_Ping,Cheng_Mei_Yeung,3,3,3,3,3,3,3,3,3,3,3,3,3
+Cheng_Chui_Ping,Cheng_Mei_Yeung,2,0,0,0,0,0,0,0,0,0,0,0,0
+Cheng_Chui_Ping,Cheng_Yik_Tak,3,3,3,3,3,3,3,3,3,3,3,3,3
+Cheng_Chui_Ping,Cheng_Yik_Tak,2,0,0,0,0,0,0,0,0,0,0,0,0
+Cheng_Chui_Ping,FBI,0,10,10,0,0,0,0,0,0,0,0,0,0
+Cheng_Chui_Ping,Gloria_Canales,0,0,0,0,0,0,0,0,0,7,0,0,0
+Cheng_Chui_Ping,Guo_Liang_Qi,0,0,1,1,1,1,1,0,0,0,0,0,0
+Cheng_Chui_Ping,Guo_Liang_Qi,0,0,2,2,2,2,2,0,0,0,0,0,0
+Cheng_Chui_Ping,Guo_Liang_Qi,0,0,7,0,0,0,0,0,0,0,0,0,0
+Cheng_Chui_Ping,Guo_Liang_Qi,0,0,4,0,0,0,0,0,0,0,0,0,0
+Cheng_Chui_Ping,Guo_Liang_Qi,0,10,0,0,0,0,0,0,0,0,0,0,0
+Cheng_Chui_Ping,Larry_Hay,0,4,0,0,0,0,0,0,0,0,0,0,0
+Cheng_Chui_Ping,Lee_Peng_Fei,0,0,2,0,0,0,0,0,0,0,0,0,0
+Cheng_Chui_Ping,Lee_Peng_Fei,0,0,4,0,0,0,0,0,0,0,0,0,0
+Cheng_Chui_Ping,Peter_Lee,0,13,13,0,0,0,0,0,0,0,0,0,0
+Cheng_Chui_Ping,Security_Offs,2,2,0,0,0,0,0,0,0,0,0,0,0
+Cheng_Chui_Ping,Susan_Cheng,3,3,3,3,3,3,3,3,3,3,3,3,3
+Cheng_Chui_Ping,Susan_Cheng,2,2,0,0,0,0,0,0,0,0,0,0,0
+Cheng_Chui_Ping,Terry_Honesburger,0,4,0,0,0,0,0,0,0,0,0,0,0
+Cheng_Chui_Ping,Wai_Wei_Cheng,3,3,3,3,3,3,3,3,3,3,3,3,3
+Cheng_Chui_Ping,Wang_Kong_Fu,0,2,2,2,0,0,0,0,0,0,0,0,0
+Cheng_Chui_Ping,Wang_Kong_Fu,0,13,13,13,13,13,13,13,13,13,13,13,0
+Cheng_Chui_Ping,Weng_Yu_Hui,0,2,2,2,2,2,2,0,0,0,0,0,0
+Cheng_Chui_Ping,Weng_Yu_Hui,0,4,0,0,0,0,0,0,0,0,0,0,0
+Cheng_Chui_Ping,GV_Pass,0,0,2,2,2,2,2,0,0,0,0,0,0
+Cheng_Chui_Ping,Weng_Yu_Hui,0,7,0,0,0,0,0,0,0,0,0,0,0
+Cheng_Hui_Mui,Cheng_Chui_Ping,3,3,3,3,3,3,3,3,3,3,3,3,3
+Cheng_Hui_Mui,Cheng_Yik_Tak,3,3,3,3,3,3,3,3,3,3,3,3,3
+Cheng_Mei_Yeung,GV_Pass,0,0,2,2,2,2,2,0,0,0,0,0,0
+Cheng_Mei_Yeung,Cheng_Chui_Ping,3,3,3,3,3,3,3,3,3,3,3,3,3
+Cheng_Mei_Yeung,Cheng_Chui_Ping,2,2,2,2,2,2,2,0,0,0,0,0,0
+Cheng_Mei_Yeung,Lau_Xing_Bau,2,2,2,2,2,2,2,0,0,0,0,0,0
+Cheng_Mei_Yeung,Lee_Peng_Fei,2,2,2,2,2,2,2,0,0,0,0,0,0
+Cheng_Mei_Yeung,Security_Offs,2,2,2,2,2,2,2,0,0,0,0,0,0
+Cheng_Mei_Yeung,Susan_Cheng,3,3,3,3,3,3,3,3,3,3,3,3,3
+Cheng_Yik_Tak,Cheng_Chui_Ping,3,3,3,3,3,3,3,3,3,3,3,3,3
+Cheng_Yik_Tak,Cheng_Chui_Ping,2,2,2,2,2,2,2,2,2,0,0,0,0
+Cheng_Yik_Tak,Cheng_Hui_Mui,3,3,3,3,3,3,3,3,3,3,3,3,3
+Cheng_Yik_Tak,Minh_Hoang,2,2,2,2,0,0,0,0,0,0,0,0,0
+Cheng_Yik_Tak,Susan_Cheng,3,3,3,3,3,3,3,3,3,3,3,3,3
+Cheng_Yik_Tak,Wai_Wei_Cheng,3,3,3,3,3,3,3,3,3,3,3,3,3
+Cheng_Yik_Tak,Wang_Kong_Fu,0,7,7,7,7,7,7,7,7,7,7,0,0
+Cheng_Yik_Tak,Guo_Liang_Qi,0,0,4,4,0,0,0,0,0,0,0,0,0
+Cho_Lee_Lin,Chang Lian Lin,0,0,0,0,0,0,8,0,0,0,0,0,0
+Cho_Lee_Lin,Chao_Lin_Feng,0,2,2,2,2,2,2,0,0,0,0,0,0
+Cho_Lee_Lin,Dan_Xin_Lin,0,2,2,2,2,2,2,0,0,0,0,0,0
+Cho_Lee_Lin,Guan Sheng Li,0,0,0,0,0,0,8,0,0,0,0,0,0
+Cho_Lee_Lin,Guo_Liang_Qi,0,2,2,2,0,0,0,0,0,0,0,0,0
+Cho_Lee_Lin,Guo_Liang_Qi,0,0,0,0,7,7,7,0,0,0,0,0,0
+Cho_Lee_Lin,Guo Liang Qun,0,0,0,0,0,0,8,0,0,0,0,0,0
+Cho_Lee_Lin,Guo_Liang_Wang,0,0,0,0,0,0,8,0,0,0,0,0,0
+Cho_Lee_Lin,Jeffrey_Zhu,0,2,2,2,2,2,2,0,0,0,0,0,0
+Cho_Lee_Lin,Lin_Yun,0,2,2,2,2,2,2,0,0,0,0,0,0
+Cho_Lee_Lin,Shing_Chung,0,2,2,2,2,2,2,0,0,0,0,0,0
+Cho_Lee_Lin,Simon_Lau,0,2,2,2,2,2,2,0,0,0,0,0,0
+Cho_Lee_Lin,Yu_Ping_Zhang,0,0,0,0,0,0,8,0,0,0,0,0,0
+Cho_Yee_Yeung,Guo_Liang_Qi,0,2,2,2,2,0,0,0,0,0,0,0,0
+Dan_Xin_Lin,Alan_Tam,0,2,2,2,2,2,2,0,0,0,0,0,0
+Dan_Xin_Lin,Chang Lian Lin,0,0,0,0,0,0,8,0,0,0,0,0,0
+Dan_Xin_Lin,Chao_Lin_Feng,0,2,2,2,2,2,2,0,0,0,0,0,0
+Dan_Xin_Lin,Cho_Lee_Lin,0,2,2,2,2,2,2,0,0,0,0,0,0
+Dan_Xin_Lin,FBI,0,0,0,0,0,10,10,0,0,0,0,0,0
+Dan_Xin_Lin,Guan Sheng Li,0,0,0,0,0,0,8,0,0,0,0,0,0
+Dan_Xin_Lin,Guo_Liang_Qi,0,0,0,0,7,7,7,0,0,0,0,0,0
+Dan_Xin_Lin,Guo_Liang_Qi,0,2,2,2,0,0,0,0,0,0,0,0,0
+Dan_Xin_Lin,Guo Liang Qun,0,0,0,0,0,0,8,0,0,0,0,0,0
+Dan_Xin_Lin,Guo_Liang_Wang,0,0,0,0,0,0,8,0,0,0,0,0,0
+Dan_Xin_Lin,Jeffrey_Zhu,0,2,2,2,2,2,2,0,0,0,0,0,0
+Dan_Xin_Lin,Lin_Yun,0,2,2,2,2,2,2,0,0,0,0,0,0
+Dan_Xin_Lin,Shing_Chung,0,2,2,2,2,2,2,0,0,0,0,0,0
+Dan_Xin_Lin,Simon_Lau,0,2,2,2,2,2,2,0,0,0,0,0,0
+Dan_Xin_Lin,Yu_Ping_Zhang,0,0,0,0,0,0,8,0,0,0,0,0,0
+DEA,INS,0,6,6,6,6,6,6,6,6,6,6,6,0
+Dickson_Yao,Jerry_Stuchiner,0,0,0,0,0,0,0,0,0,2,0,0,0
+Dickson_Yao,Jerry_Stuchiner,0,13,13,13,13,13,13,13,13,13,0,0,0
+Dickson_Yao,Cheng_Chui_Ping,0,9,9,9,9,9,9,9,9,9,9,9,0
+Dickson_Yao,Guo_Liang_Qi,0,9,9,9,9,9,9,9,9,9,9,9,0
+Dickson_Yao,INS,10,10,0,0,0,0,0,0,0,0,0,0,0
+Dickson_Yao,DEA,0,10,10,10,10,10,10,10,10,10,0,0,0
+FBI,Alan_Tam,0,0,0,0,0,0,6,0,0,0,0,0,0
+FBI,INS,0,6,6,6,6,6,6,6,6,6,6,6,6
+Guo_Chiwu,Guo_Liang_Qi,3,3,3,3,3,3,3,3,3,3,3,3,3
+Guo_Chiwu,Guo Liang Qun,3,3,3,3,3,3,3,0,0,0,0,0,0
+Guo_Chiwu,Guo_Liang_Wang,3,3,3,3,3,3,3,0,0,0,0,0,0
+Guo_Liang_Qi,Alan_Tam,0,2,2,2,2,2,2,0,0,0,0,0,0
+Guo_Liang_Qi,Alan_Tam,0,13,13,13,13,13,13,13,13,13,0,0,0
+Guo_Liang_Qi,Chao_Lin_Feng,0,2,2,2,0,0,0,0,0,0,0,0,0
+Guo_Liang_Qi,Cheng_Chui_Ping,0,0,1,1,1,1,1,0,0,0,0,0,0
+Guo_Liang_Qi,Cheng_Chui_Ping,0,0,2,2,2,2,2,0,0,0,0,0,0
+Guo_Liang_Qi,Cheng_Chui_Ping,0,0,0,0,0,0,0,0,0,10,10,10,10
+Guo_Liang_Qi,Cheng_Chui_Ping,8,0,0,0,0,0,0,0,0,0,0,0,0
+Guo_Liang_Qi,Cheng_Chui_Ping,0,0,4,4,0,0,0,0,0,0,0,0,0
+Guo_Liang_Qi,Cheng_Hui_Mui,8,0,0,0,0,0,0,0,0,0,0,0,0
+Guo_Liang_Qi,Cho_Lee_Lin,0,2,2,2,0,0,0,0,0,0,0,0,0
+Guo_Liang_Qi,Cho_Yee_Yeung,0,2,2,2,2,2,2,0,0,0,0,0,0
+Guo_Liang_Qi,Cho_Yee_Yeung,0,0,0,2,0,0,0,0,0,0,0,0,0
+Guo_Liang_Qi,Dan_Xin_Lin,2,2,2,2,0,0,0,0,0,0,0,0,0
+Guo_Liang_Qi,Dan_Xin_Lin,0,0,0,8,8,8,8,0,0,0,0,0,0
+Guo_Liang_Qi,Guo_Chiwu,3,3,3,3,3,3,3,3,3,3,3,3,3
+Guo_Liang_Qi,Guo Liang Qun,3,3,3,3,3,3,3,0,0,0,0,0,0
+Guo_Liang_Qi,Guo_Liang_Wang,3,3,3,3,3,3,3,0,0,0,0,0,0
+Guo_Liang_Qi,Jeffrey_Zhu,0,2,2,2,0,0,0,0,0,0,0,0,0
+Guo_Liang_Qi,Lee_Peng_Fei,0,0,2,2,2,2,2,0,0,0,0,0,0
+Guo_Liang_Qi,Li_Xing_Hua,0,2,2,2,2,2,2,2,2,2,0,0,0
+Guo_Liang_Qi,Lin_Yun,0,2,2,2,0,0,0,0,0,0,0,0,0
+Guo_Liang_Qi,Lo_Cho,0,2,0,0,0,0,0,0,0,0,0,0,0
+Guo_Liang_Qi,Ronald_Chau,0,2,2,2,2,2,2,0,0,0,0,0,0
+Guo_Liang_Qi,Shing_Chung,0,2,2,2,0,0,0,0,0,0,0,0,0
+Guo_Liang_Qi,Simon_Lau,0,2,2,2,0,0,0,0,0,0,0,0,0
+Guo_Liang_Qi,Song_You_Lin,0,2,2,2,2,2,2,0,0,0,0,0,0
+Guo_Liang_Qi,Weng_Yu_Hui,0,0,2,2,2,2,2,0,0,0,0,0,0
+Guo_Liang_Qi,Wang_Kong_Fu,0,0,2,2,0,0,0,0,0,0,0,0,0
+Guo Liang Qun,Alan_Tam,0,2,2,2,2,2,2,0,0,0,0,0,0
+Guo Liang Qun,Guo_Chiwu,3,3,3,3,3,3,3,0,0,0,0,0,0
+Guo Liang Qun,Guo_Liang_Qi,3,3,3,3,3,3,3,0,0,0,0,0,0
+Guo Liang Qun,Guo_Liang_Wang,3,3,3,3,3,3,3,0,0,0,0,0,0
+Guo_Liang_Wang,Alan_Tam,0,2,2,2,2,2,2,0,0,0,0,0,0
+Guo_Liang_Wang,Guo_Chiwu,3,3,3,3,3,3,3,0,0,0,0,0,0
+Guo_Liang_Wang,Guo_Liang_Qi,3,3,3,3,3,3,3,0,0,0,0,0,0
+Guo_Liang_Wang,Guo Liang Qun,3,3,3,3,3,3,3,0,0,0,0,0,0
+INS,Jerry_Stuchiner,0,6,6,6,6,6,6,6,6,6,0,0,0
+INS,DEA,0,6,6,6,6,6,6,6,6,6,6,6,0
+INS,FBI,0,6,6,6,6,6,6,6,6,6,6,6,6
+James_Dullan,Cheng_Yik_Tak,0,2,0,0,0,0,0,0,0,0,0,0,0
+James_Dullan,Minh_Hoang,0,2,0,0,0,0,0,0,0,0,0,0,0
+James_Dullan,Niagara_Cops,0,10,0,0,0,0,0,0,0,0,0,0,0
+James_Dullan,Richard_Kephardt,0,13,0,0,0,0,0,0,0,0,0,0,0
+James_Dullan,Wai_Wei_Cheng,0,2,0,0,0,0,0,0,0,0,0,0,0
+Jeffrey_Zhu,Chang Lian Lin,0,0,0,0,0,0,8,0,0,0,0,0,0
+Jeffrey_Zhu,Chao_Lin_Feng,0,2,2,2,2,2,2,0,0,0,0,0,0
+Jeffrey_Zhu,Cho_Lee_Lin,0,2,2,2,2,2,2,0,0,0,0,0,0
+Jeffrey_Zhu,Dan_Xin_Lin,0,2,2,2,2,2,2,0,0,0,0,0,0
+Jeffrey_Zhu,Guan Sheng Li,0,0,0,0,0,0,8,0,0,0,0,0,0
+Jeffrey_Zhu,Guo_Liang_Qi,0,2,2,2,0,0,0,0,0,0,0,0,0
+Jeffrey_Zhu,Guo_Liang_Qi,0,0,0,0,7,7,7,0,0,0,0,0,0
+Jeffrey_Zhu,Guo Liang Qun,0,0,0,0,0,0,8,0,0,0,0,0,0
+Jeffrey_Zhu,Guo_Liang_Wang,0,0,0,0,0,0,8,0,0,0,0,0,0
+Jeffrey_Zhu,Lin_Yun,0,2,2,2,2,2,2,0,0,0,0,0,0
+Jeffrey_Zhu,Shing_Chung,0,2,2,2,2,2,2,0,0,0,0,0,0
+Jeffrey_Zhu,Simon_Lau,0,2,2,2,2,2,2,0,0,0,0,0,0
+Jeffrey_Zhu,Yu_Ping_Zhang,0,0,0,0,0,0,8,0,0,0,0,0,0
+Jerry_Stuchiner,Dickson_Yao,0,0,0,0,0,0,0,0,0,2,0,0,0
+Jerry_Stuchiner,Dickson_Yao,0,6,6,6,6,6,6,6,6,0,0,0,0
+Jerry_Stuchiner,Dickson_Yao,0,13,13,13,13,13,13,13,13,13,0,0,0
+Jerry_Stuchiner,INS,0,6,6,6,6,6,6,6,6,6,0,0,0
+Kenny_Feng,Cheng_Chui_Ping,0,0,2,2,2,2,2,2,2,2,2,0,0
+Kenny_Feng,Mr_Salman,0,0,2,2,2,2,2,2,2,2,2,0,0
+Kenny_Feng,Mrs_Salman,0,0,2,2,2,2,2,2,2,2,2,0,0
+Kenny_Feng,Sandy_Chen,0,0,0,0,0,0,0,0,0,0,9,0,0
+Kin_Sin_Lee,GV_Pass,0,0,0,0,9,9,9,0,0,0,0,0,0
+Kin_Sin_Lee,Amir_Tobing,0,0,0,0,2,2,2,0,0,0,0,0,0
+Kin_Sin_Lee,Amir_Tobing,0,0,0,0,0,0,8,0,0,0,0,0,0
+Kin_Sin_Lee,Lee_Peng_Fei,0,0,0,2,2,2,2,0,0,0,0,0,0
+Kin_Sin_Lee,Sam_Lwin,0,0,0,0,2,2,2,0,0,0,0,0,0
+Lau_Xing_Bau,GV_Pass,0,0,2,2,2,2,2,0,0,0,0,0,0
+Lau_Xing_Bau,Cheng_Mei_Yeung,0,0,2,2,2,2,2,0,0,0,0,0,0
+Lau_Xing_Bau,Lee_Peng_Fei,0,0,2,2,2,2,2,0,0,0,0,0,0
+Larry_Hay,Terry_Honesburger,6,6,0,0,0,0,0,0,0,0,0,0,0
+Lee_Hui_Mei,Cheng_Chui_Ping,0,0,0,0,0,0,0,0,0,0,4,0,0
+Lee_Peng_Fei,Amir_Tobing,0,0,0,0,2,2,0,0,0,0,0,0,0
+Lee_Peng_Fei,Cheng_Chui_Ping,0,0,2,2,2,2,2,0,0,0,0,0,0
+Lee_Peng_Fei,Cheng_Mei_Yeung,0,0,2,2,2,2,2,0,0,0,0,0,0
+Lee_Peng_Fei,Guo_Liang_Qi,0,0,2,2,2,2,2,0,0,0,0,0,0
+Lee_Peng_Fei,Kin_Sin_Lee,0,0,0,2,2,2,2,0,0,0,0,0,0
+Lee_Peng_Fei,Lau_Xing_Bau,0,0,2,2,2,2,2,0,0,0,0,0,0
+Lee_Peng_Fei,Weng_Yu_Hui,0,0,2,2,2,2,2,0,0,0,0,0,0
+Lee_Peng_Fei,William_Appleton,0,0,2,2,0,0,0,0,0,0,0,0,0
+Lin_Yun,Chang Lian Lin,0,0,0,0,0,0,8,0,0,0,0,0,0
+Lin_Yun,Chao_Lin_Feng,0,2,2,2,2,2,2,0,0,0,0,0,0
+Lin_Yun,Cho_Lee_Lin,0,2,2,2,2,2,2,0,0,0,0,0,0
+Lin_Yun,Dan_Xin_Lin,0,2,2,2,2,2,2,0,0,0,0,0,0
+Lin_Yun,Guan Sheng Li,0,0,0,0,0,0,8,0,0,0,0,0,0
+Lin_Yun,Guo_Liang_Qi,0,2,2,2,0,0,0,0,0,0,0,0,0
+Lin_Yun,Guo_Liang_Qi,0,0,0,0,7,7,7,0,0,0,0,0,0
+Lin_Yun,Guo Liang Qun,0,0,0,0,0,0,8,0,0,0,0,0,0
+Lin_Yun,Guo_Liang_Wang,0,0,0,0,0,0,8,0,0,0,0,0,0
+Lin_Yun,Jeffrey_Zhu,0,2,2,2,2,2,2,0,0,0,0,0,0
+Lin_Yun,Shing_Chung,0,2,2,2,2,2,2,0,0,0,0,0,0
+Lin_Yun,Simon_Lau,0,2,2,2,2,2,2,0,0,0,0,0,0
+Lin_Yun,Yu_Ping_Zhang,0,0,0,0,0,0,8,0,0,0,0,0,0
+Li_Xing_Hua,Guo_Liang_Qi,0,2,2,2,2,2,2,2,2,2,0,0,0
+Lo_Cho,Guo_Liang_Qi,0,2,0,0,0,0,0,0,0,0,0,0,0
+Minh_Hoang,Cheng_Yik_Tak,2,2,2,2,0,0,0,0,0,0,0,0,0
+Minh_Hoang,James_Dullan,0,2,0,0,0,0,0,0,0,0,0,0,0
+Minh_Hoang,Richard_Kephardt,0,2,0,0,0,0,0,0,0,0,0,0,0
+Minh_Hoang,Wai_Wei_Cheng,0,2,0,0,0,0,0,0,0,0,0,0,0
+Mr_Salman,Mrs_Salman,3,3,3,3,3,3,3,3,3,3,3,3,3
+Mr_Salman,Kenny_Feng,0,0,2,2,2,2,2,2,2,2,2,0,0
+Mrs_Salman,Mr_Salman,3,3,3,3,3,3,3,3,3,3,3,3,3
+Mrs_Salman,Kenny_Feng,0,0,2,2,2,2,2,2,2,2,2,0,0
+Niagara_Cops,James_Dullan,0,6,0,0,0,0,0,0,0,0,0,0,0
+Niagara_Cops,Richard_Kephardt,0,6,0,0,0,0,0,0,0,0,0,0,0
+Peter_Lee,FBI,0,6,6,0,0,0,0,0,0,0,0,0,0
+Peter_Lee,Cheng_Chui_Ping,0,6,6,0,0,0,0,0,0,0,0,0,0
+Security_Offs,Cheng_Chui_Ping,2,2,0,0,0,0,0,0,0,0,0,0,0
+Richard_Kephardt,Cheng_Yik_Tak,0,2,0,0,0,0,0,0,0,0,0,0,0
+Richard_Kephardt,James_Dullan,0,2,0,0,0,0,0,0,0,0,0,0,0
+Richard_Kephardt,Minh_Hoang,0,2,0,0,0,0,0,0,0,0,0,0,0
+Richard_Kephardt,Niagara_Cops,0,10,0,0,0,0,0,0,0,0,0,0,0
+Richard_Kephardt,Wai_Wei_Cheng,0,2,0,0,0,0,0,0,0,0,0,0,0
+Robert_Porges,Sheery_Porges,0,0,0,0,0,0,0,0,0,3,3,3,3
+Robert_Porges,Sheery_Porges,0,0,0,0,0,0,0,0,0,2,2,2,0
+Robert_Porges,GV_Pass,0,0,0,0,0,0,9,9,9,9,9,9,0
+Ronald_Chau,Guo_Liang_Qi,0,2,2,2,2,2,2,0,0,0,0,0,0
+Sam_Lwin,Amir_Tobing,0,0,0,0,2,2,2,0,0,0,0,0,0
+Sam_Lwin,Kin_Sin_Lee,0,0,0,0,2,2,2,0,0,0,0,0,0
+Sam_Lwin,Zaw_Moe,0,0,0,0,2,2,2,0,0,0,0,0,0
+Sandy_Chen,Kenny_Feng,0,0,0,0,0,0,0,0,0,0,9,0,0
+Sheery_Porges,Robert_Porges,0,0,0,0,0,0,0,0,0,3,3,3,3
+Sheery_Porges,Robert_Porges,0,0,0,0,0,0,0,0,0,2,2,2,0
+Shing_Chung,Chang Lian Lin,0,0,0,0,0,0,8,0,0,0,0,0,0
+Shing_Chung,Chao_Lin_Feng,0,2,2,2,2,2,2,0,0,0,0,0,0
+Shing_Chung,Cho_Lee_Lin,0,2,2,2,2,2,2,0,0,0,0,0,0
+Shing_Chung,Dan_Xin_Lin,0,2,2,2,2,2,2,0,0,0,0,0,0
+Shing_Chung,Guan Sheng Li,0,0,0,0,0,0,8,0,0,0,0,0,0
+Shing_Chung,Guo_Liang_Qi,0,2,2,2,0,0,0,0,0,0,0,0,0
+Shing_Chung,Guo_Liang_Qi,0,0,0,0,7,7,7,0,0,0,0,0,0
+Shing_Chung,Guo Liang Qun,0,0,0,0,0,0,8,0,0,0,0,0,0
+Shing_Chung,Guo_Liang_Wang,0,0,0,0,0,0,8,0,0,0,0,0,0
+Shing_Chung,Jeffrey_Zhu,0,2,2,2,2,2,2,0,0,0,0,0,0
+Shing_Chung,Lin_Yun,0,2,2,2,2,2,2,0,0,0,0,0,0
+Shing_Chung,Simon_Lau,0,2,2,2,2,2,2,0,0,0,0,0,0
+Shing_Chung,Yu_Ping_Zhang,0,0,0,0,0,0,8,0,0,0,0,0,0
+Simon_Lau,Chang Lian Lin,0,0,0,0,0,0,8,0,0,0,0,0,0
+Simon_Lau,Chao_Lin_Feng,0,2,2,2,2,2,2,0,0,0,0,0,0
+Simon_Lau,Cho_Lee_Lin,0,2,2,2,2,2,2,0,0,0,0,0,0
+Simon_Lau,Dan_Xin_Lin,0,2,2,2,2,2,2,0,0,0,0,0,0
+Simon_Lau,Guan Sheng Li,0,0,0,0,0,0,8,0,0,0,0,0,0
+Simon_Lau,Guo_Liang_Qi,0,2,2,2,0,0,0,0,0,0,0,0,0
+Simon_Lau,Guo_Liang_Qi,0,0,0,0,7,7,7,0,0,0,0,0,0
+Simon_Lau,Guo Liang Qun,0,0,0,0,0,0,8,0,0,0,0,0,0
+Simon_Lau,Guo_Liang_Wang,0,0,0,0,0,0,8,0,0,0,0,0,0
+Simon_Lau,Jeffrey_Zhu,0,2,2,2,2,2,2,0,0,0,0,0,0
+Simon_Lau,Lin_Yun,0,2,2,2,2,2,2,0,0,0,0,0,0
+Simon_Lau,Shing_Chung,0,2,2,2,2,2,2,0,0,0,0,0,0
+Simon_Lau,Yu_Ping_Zhang,0,0,0,0,0,0,8,0,0,0,0,0,0
+Song_You_Lin,Dan_Xin_Lin,0,0,0,0,0,0,8,0,0,0,0,0,0
+Song_You_Lin,Guo_Liang_Qi,0,2,2,2,2,2,2,0,0,0,0,0,0
+Susan_Cheng,Cheng_Chai_Leung,3,3,3,3,3,3,3,3,3,3,3,3,3
+Susan_Cheng,Bangkok_Imm,2,2,0,0,0,0,0,0,0,0,0,0,0
+Susan_Cheng,Cheng_Chui_Ping,3,3,3,3,3,3,3,3,3,3,3,3,3
+Susan_Cheng,Cheng_Chui_Ping,2,2,0,0,0,0,0,0,0,0,0,0,0
+Susan_Cheng,Cheng_Mei_Yeung,3,3,3,3,3,3,3,3,3,3,3,3,3
+Susan_Cheng,Cheng_Yik_Tak,3,3,3,3,3,3,3,3,3,3,3,3,3
+Susan_Cheng,Wai_Wei_Cheng,3,3,3,3,3,3,3,3,3,3,3,3,3
+Terry_Honesburger,Cheng_Chui_Ping,0,10,0,0,0,0,0,0,0,0,0,0,0
+Wai_Wei_Cheng,Cheng_Chui_Ping,3,3,3,3,3,3,3,3,3,3,3,3,3
+Wai_Wei_Cheng,Cheng_Yik_Tak,3,3,3,3,3,3,3,3,3,3,3,3,3
+Wai_Wei_Cheng,Cheng_Yik_Tak,0,10,0,0,0,0,0,0,0,0,0,0,0
+Wai_Wei_Cheng,James_Dullan,0,2,0,0,0,0,0,0,0,0,0,0,0
+Wai_Wei_Cheng,Minh_Hoang,0,2,0,0,0,0,0,0,0,0,0,0,0
+Wai_Wei_Cheng,Richard_Kephardt,0,2,0,0,0,0,0,0,0,0,0,0,0
+Wai_Wei_Cheng,Susan_Cheng,3,3,3,3,3,3,3,3,3,3,3,3,3
+Wang_Kong_Fu,Cheng_Chui_Ping,0,2,2,2,0,0,0,0,0,0,0,0,0
+Wang_Kong_Fu,Cheng_Chui_Ping,0,13,13,13,13,13,13,13,13,13,13,13,0
+Wang_Kong_Fu,Guo_Liang_Qi,0,0,2,2,0,0,0,0,0,0,0,0,0
+Weng_Yu_Hui,Cheng_Chui_Ping,0,4,0,0,0,0,0,0,0,0,0,0,0
+Weng_Yu_Hui,Cheng_Mei_Yeung,0,0,2,2,2,2,2,0,0,0,0,0,0
+Weng_Yu_Hui,Guo_Liang_Qi,0,0,0,2,2,2,2,0,0,0,0,0,0
+Weng_Yu_Hui,GV_Pass,0,0,2,2,2,2,2,0,0,0,0,0,0
+Weng_Yu_Hui,Lau_Xing_Bau,0,0,2,2,2,2,2,0,0,0,0,0,0
+Weng_Yu_Hui,Lee_Peng_Fei,0,0,2,2,2,2,2,0,0,0,0,0,0
+William_Appleton,Lee_Peng_Fei,0,0,2,2,0,0,0,0,0,0,0,0,0

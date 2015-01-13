@@ -1,0 +1,73 @@
+---
+title: "Day 6 Homework"
+output: html_document
+---
+
+1. Think carefully about your data.  Think about something you would like to do multiple times, to subsets of your data. 
+
+2. Write out (in plain English, in the notebook) what you are trying to do
+
+#I would like to be able to see the distribution of relationship types for each time period
+
+3. Write some "pseudo-code" comments in an R chunk, as an outline
+
+```{r}
+#setwd("~/R/Homework")
+#mySP <- read.csv("SPTimePeriods.csv")
+#head(mySP)
+#for(mySP$T3) {
+  #table()
+}
+table(T3)
+
+```
+
+4. Write some (real) code that will do what you want ONCE, on one subset of the data.
+
+```{r}
+library(reshape2)
+setwd("~/R/Homework")
+mySP <- read.csv("SPTimePeriods.csv")
+head(mySP)
+results <- table(mySP$T3)
+head(results)
+
+mySP$RelID <- 1:nrow(mySP)
+mySP$RelID <- paste("Rel", 1:nrow(mySP), sep = "")
+head(mySP)
+mySP.melt <- melt(mySP, id.vars = c("RelID", "ID", "Relationship"), value.name = "relationship.type", variable.name = "time.period")
+summary(mySP.melt)
+head(mySP.melt)
+
+mySP.cast <- dcast(mySP.melt, time.period ~ relationship.type)
+mySP.cast
+
+
+```
+
+5. Copy that code chunk, and convert it into a loop, which will do what you want over all the groups, concatenating the results.
+
+```{r}
+
+my.answer <- data.frame(time.period = rep(NA, length(levels(mySP.melt$time.period))), relationship.type = NA)
+for(this.loop in 1:length(levels(mySP.melt$time.period))) {
+  this.tp <- levels(mySP.melt$time.period)[this.loop] #will grab the first value of the levels
+  mySP.subset <- mySP.melt[mySP.melt$time.period == this.tp, ]
+  rt <- table(mySP.subset$relationship.type)
+  this.answer <- data.frame(rt)
+  this.answer <- dcast(this.answer, . ~ Var1, value.var = "Freq")[, -1]
+  this.answer$time.period <- this.tp
+  my.answer[this.loop, ] <- this.answer[1, ]
+}
+my.answer
+
+
+#i am not 100% what is happening here. I think there is an issue with how I am assigning results and this.vector, so basically everything from this.vector down in the code. I am unclear when I am supposed to be usng the variable that identifies the value to be run through the loop (T0, T1, T2 etc. from time.period), and the other variable that it should be compared to in order for the table to generate (1,2,3, from relatinship.type.
+```
+
+6. Copy that loop again, and at a condition (`if`) statement to add some further control about ignoring some groups or some other conditional operation.
+
+```{r}
+#I would use an if statement to say (in code form): "if mySP.melt$time.period == (insert time period T0, T1, T2, ..., T12), then create a table of the relationship.types for that value"
+
+```

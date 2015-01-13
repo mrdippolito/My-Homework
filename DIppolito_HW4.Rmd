@@ -1,0 +1,125 @@
+---
+title: "Day 4 Homework"
+output: html_document
+---
+```{r}
+library(reshape2)
+
+mySP <- read.csv("SPTimePeriods.csv")
+
+```
+
+
+1. Change the column names of your data to something easier to work with.  If you like your column names, change them into something else reasonable, just for practice.
+
+```{r}
+mycolnames <- c("ID", "Rels", "T1", "T2", "T3", "T4", "T5", "T6", "T7", "T8", "T9", "T10", "T11", "T12")
+colnames(mySP) <- mycolnames
+head(mySP)
+```
+
+2. List ALL the issues you can see where it looks like your data is being read in a weird way.  If your data looks perfect, find some way to mess it up :-)
+
+```{r}
+
+#the columns no longer match the time periods so there is a column for "NA" - it should be T0:T12 not T1:NA.
+
+#more complicated example:
+#colA and colB are "complementary" (one has NA where the other has value)
+#mydata <- data.frame(colA = c(NA, 1, 2, NA, NA), colB = c(45, NA, NA, 2, 99))
+#mydata
+#mydata$colC <- mydata$colA
+#mydata$colC[is.na(mydta$colC)]
+#mydata$colC[is.na(mydata$colA)] <- mydata$colB[is.na(mydata$colA)]
+#mydata
+```
+
+3. Pick one or two of the most egregious or problematic of the issues in #2 and fix them.
+
+```{r}
+mycolnames <- c("ID", "Rels", "T0", "T1", "T2", "T3", "T4", "T5", "T6", "T7", "T8", "T9", "T10", "T11", "T12")
+colnames(mySP) <- mycolnames
+head(mySP)
+
+```
+
+4. Check for NAs, and report where you see them (try to pinpoint where they are, not just "5 NAs in column seven".
+
+```{r}
+#there are no NAs in the dataset
+summary(mySP)
+
+#note: if you use which() you are asking which is NA and it will return the rows numbers that contain an NA
+#complete.cases() will only return "true" if there are no "NA's" anywhere in a row (i.e. the row is complete). It returns a vector that is as long as the dataset is where TRUE = complete and FALSE = not complete/there are NAs somewhere.
+#to get the values of complete cases:
+  #mydata[complete.cases(mydata),]
+#to get the values of the not complete cases:
+  #mydata[!complete.cases(mydata), ]
+#to get the row numbers that have NA values in them:
+  #which(!complete.cases(mydata))
+
+```
+
+5. Decide what you think you should do about the NAs, and say why.  If you can, try to implement this decision.
+
+
+# because there are no NAs, there is nothing to be done. If there were NA's i would check for aggregated values where there should not be and make sure there was not a transcription error then either correct the singular value or adjust/remove rows as necessary using !is.na in a subset command
+
+
+6. Remove any problematic rows and/or columns.  Say why you want to remove them.  If there aren't any problems, describe why you think there are no problems.
+
+# There are no problem columns or rows because this is a relational matrix, which means that the relationship and ID columns are form part of unique combinations and the values of the time periods represent the kind of relationship that the two individuals experienced at that point in time. Because there are multiplex relationships, the unique ID for a given relationship has to include the ID, relationship, and time period value.
+
+#to remove: take a subset without those rows, you can use NULL to 0 out a row to remove it, etc.
+
+7. Re-code at least one factor.  Provide a table that shows the correspondence between old levels and new levels.
+
+```{r}
+oldlevels <- levels(mySP$T0)
+levels(mySP$T0) <- c("NA", "Business", "Criminal", "Family", "Financial", "Political", "Law", "Rival", "Murder", "Other", "Informant", "Friend")
+NewLevels <- levels(mySP$T0)
+levels(mySP$T0)
+data.frame(oldlevels <- NewLevels)
+
+```
+
+8. Run TWO DIFFERENT simple analyses or statistical tests, such as linear regression (`lm()`), logistic regression (`glm()`), correlation test (`cor.test()`), t-test (`t.test()`), or non-parametric tests (e.g., `wilcox.test()`).  For each of these:
+  - Describe why you are doing this analysis, i.e., what question is it answering?
+  - I won't judge you on statistical expertise!  (though I will make comments if I think I can be helpful)
+  - Report some key statistics from the analysis, using inline code
+  
+# Analysis #1: linear regression of time periods from T1 against T3. T1 is when Sister Ping's business started to pick up and she had her initial network beyond her family and T3 was right before the turning point that caused the downfall of the network. I want to see if there is a correlation between the relationships between T1 and T3.
+
+```{r}
+?lm()
+my.lmT3 <- lm(T1 ~ T3, data = mySP)
+results<- my.lmT3
+
+mysummary<- summary(results)
+names(mysummary)
+mysummary$coefficients
+est<- mysummary$coefficients["T3","Estimate"]
+std.err <- mysummary$coefficients["T3", "Std. Error"]
+p.value <- mysummary$coefficients["T3", "Pr(>|t|)"]
+```
+
+The value of the estimate is `r est` with a standard error of `r std.err` and a p value of `r round(p.value, 3)`.
+
+# Analysis #2: logistic regression of T1 and T3, for comparison to the linear regression model.
+
+```{r}
+?glm()
+my.glmT3 <- glm(T1 ~ T3, family = gaussian, data = mySP)
+results<- my.glmT3
+
+mysummary<- summary(results)
+names(mysummary)
+mysummary$coefficients
+est<- mysummary$coefficients["T3","Estimate"]
+std.err <- mysummary$coefficients["T3", "Std. Error"]
+p.value <- mysummary$coefficients["T3", "Pr(>|t|)"]
+```
+
+The value of the estimate is `r est` with a standard error of `r std.err` and a p value of `r round(p.value, 3)`.
+
+  
