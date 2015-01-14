@@ -1,0 +1,70 @@
+---
+title: "Day 7 Homework"
+output: html_document
+---
+Question and Dataset:
+
+I would like to use the time period data I have been working with (SPTimePeriods) to focus on the first question I submitted initially: "How does the distribution of relationships of individuals change over the course of the network?" Originally, I thought about doing this over all 13 time periods; however, given the complexity of the package igraph, I would like to restrict the focus to just T3 - T7, which covers 1992-1993, when the network began to collapse. 
+
+End Product:
+
+I would like to address the distribution of relationships using igraph to visualized the network structure over the 5 time periods. I can show how the distribution of relationships has changed using centrality measures and clustering measures. For example, some of the measures that I will try include:
+
+centralization()
+centralization.betweenness()
+centralization.closeness()
+centralization.degree()
+centralization.evcent()
+centralization.scores()
+closeness()
+clusters()
+plot.igraph()
+
+In addition to these visualizations, summary statistics (histograms, summaries, etc.) as necessary.
+
+
+1. Work on making progress on your Final Project.
+
+```{r}
+
+library(reshape2)
+setwd("~/R/Homework")
+mySP <- read.csv("SPTimePeriods.csv")
+head(mySP)
+
+mySP$RelID <- 1:nrow(mySP)
+mySP$RelID <- paste("Rel", 1:nrow(mySP), sep = "")
+head(mySP)
+mySP.melt <- melt(mySP, id.vars = c("RelID", "ID", "Relationship"), value.name = "relationship.type", variable.name = "time.period")
+summary(mySP.melt)
+head(mySP.melt)
+
+#get the distribution of relationships over time periods T3 - T7:
+
+mySP.cast <- dcast(mySP.melt, time.period ~ relationship.type)
+mySP.cast
+
+#drop the extra time periods not being used in this analysis
+
+mybasedata <- mySP.cast[4:8, ] #question: do i need to use droplevel here instead?
+mybasedata
+
+#visualize igraph plot for T3 as a test
+library(igraph)
+?plot.igraph
+network1 <- erdos.renyi.game(mybasedata$T3)
+network1$layout <- layout.circle
+V(network1)$size <- 3
+plot(network1, vertex, label=NA, main="Random graph")
+
+```
+
+2. Document some road blocks you are running into.
+
+# I can get the distributions using dcast relatively easily; however, I am not sure if it is the best way to get it. 
+
+# In order to make the network graph, I am going to need the ID, Relationship, and RelID columns still in the dataset since the ID and relationship forms the "from" and "to" nodes and the value of each time period column is a weighted edge. This seems to indicate that I will have to use two separate constructions of the data to accomplish my goals - I don't know that there is a way to maintain the distribution of relationships and plot them since the former is an aggregation across all individuals and the latter is not.
+
+# I know that the erdos.renyi.game command above will produce a network graph, however I am not sure that it will produce the correct graph and the other functionsin igraph seem to indicate that I need to individually create each part of the network diagram and then plot it. This seems horribly inefficient - is there another way to be more efficient?
+
+3. Email them to me before 7am tomorrow.

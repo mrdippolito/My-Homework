@@ -49,7 +49,10 @@ mySP.cast
 
 ```{r}
 
-my.answer <- data.frame(time.period = rep(NA, length(levels(mySP.melt$time.period))), relationship.type = NA)
+relaltionship.type <- levels(mySP.melt$relationship.type) <- c("None", "Business", "Criminal", "Family", "Financial", "Law", "Rival", "Murder", "Other", "Informant", "Friend")
+levels(mySP.melt$relationship.type)
+my.answer <- data.frame(time.period = rep(NA, length(levels(mySP.melt$time.period))), None = NA, Business = NA, Crimnal = NA, Family = NA, Financial = NA, Law = NA, Rival = NA, Murder = NA, Other = NA, Informant = NA, Friend = NA)
+my.answer
 for(this.loop in 1:length(levels(mySP.melt$time.period))) {
   this.tp <- levels(mySP.melt$time.period)[this.loop] #will grab the first value of the levels
   mySP.subset <- mySP.melt[mySP.melt$time.period == this.tp, ]
@@ -61,7 +64,7 @@ for(this.loop in 1:length(levels(mySP.melt$time.period))) {
 }
 my.answer
 
-
+this.tp
 #i am not 100% what is happening here. I think there is an issue with how I am assigning results and this.vector, so basically everything from this.vector down in the code. I am unclear when I am supposed to be usng the variable that identifies the value to be run through the loop (T0, T1, T2 etc. from time.period), and the other variable that it should be compared to in order for the table to generate (1,2,3, from relatinship.type.
 ```
 
