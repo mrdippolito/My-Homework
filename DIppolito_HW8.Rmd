@@ -1,0 +1,40 @@
+---
+title: "Day 8 Homework"
+output: html_document
+---
+
+1. Try to recreate the results of Homework 6 (or your intended results) using the `dplyr` functions.
+
+```{r}
+library(reshape2)
+library(dplyr)
+mySP <- read.csv("SPTimePeriods.csv")
+mySP$RelID <- 1:nrow(mySP)
+mySP$RelID <- paste("Rel", 1:nrow(mySP), sep = "")
+head(mySP)
+mySP %>%
+  melt(mySP, id.vars = c("RelID", "ID", "Relationship"), value.name = "relationship.type", variable.name = "time.period") %>%
+  group_by(time.period) %>%
+  mySP.cast <- dcast(mySP.melt, time.period ~ relationship.type)
+
+head(mySP.cast)
+```
+
+
+2. Find another kind of analysis/transformation/summary stat that you want to apply across multiple groups in your data. Use the functions from `reshape2` and `dplyr` to get these results.
+
+```{r}
+
+summarize(mySP.melt %>% group_by(time.period), mean = mean(relationship.type))
+
+```
+
+
+3. For one more practice, try another example of something like #2 (find another stat or grouping or something).
+
+```{r}
+
+summarize(mySP.melt %>% group_by(time.period), max = max(relationship.type), min = min(relationship.type), mean = mean(relationship.type))
+
+```
+
