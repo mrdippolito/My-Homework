@@ -1,0 +1,74 @@
+---
+title: "Day 9 Homework"
+output: html_document
+---
+
+1. Write a function to do a bunch of clean-up and formatting to your data.
+
+```{r}
+library(reshape2)
+library(dplyr)
+
+mySP <- read.csv("SPTimePeriods.csv")
+mySP$RelID <- 1:nrow(mySP)
+mySP$RelID <- paste("Rel", 1:nrow(mySP), sep = "")
+
+melt.data <- function(data) {
+  mySP.melt <- melt(data, id.vars = c("RelID", "ID", "Relationship"), value.name = "relationship.type", variable.name = "time.period")
+}
+
+
+```
+
+
+2. Make sure this function works on your data.
+
+```{r}
+melt.data(mySP)
+mySP.melt
+
+```
+
+
+3. Get some subset of your data, or find a similar-but-not-identical data set.  Change up the column order.  Re-run your function on this new data.  Does it work?
+
+```{r}
+#subsetting data - changing the column order doesn't affect the data since the columns are all similarly constructed
+
+
+mySP.subset <- select(mySP, ID:T5)
+mySP.subset$RelID <- 1:nrow(mySP.subset)
+mySP.subset$RelID <- paste("Rel", 1:nrow(mySP), sep = "")
+head(mySP.subset)
+
+# running the function on the new dataset:
+melt.data2 <- function(data) {
+  mySP.melt2 <- melt(data, id.vars = c("RelID", "ID", "Relationship"), value.name = "relationship.type", variable.name = "time.period")
+}
+
+melt.data2(mySP.subset)
+mySP.melt2
+
+#it seems to work
+```
+
+
+4. Fix your function to be able to work on the new data.
+
+5. Write a function to do some kind of summary stat, and use the `dplyr` functions to run this function over groups of your data.
+
+```{r}
+
+max.reltype <- function(data) {
+  group_by(data, time.period)
+  output <- summarize(data, maxrel = max(relationship.type))
+}
+
+max.reltype(mySP.melt)
+head(mySP.melt)
+
+output
+
+#the only way I can do a summary statistic that is meaningful is to recast the data into the distributions - I tried to get the maximum value of the relationship.type column of the .melt data as the output as a test, but it continues to give me errors saying that the .data value is not in the summarize() part of the code. Not sure how to fix it.
+
+```
