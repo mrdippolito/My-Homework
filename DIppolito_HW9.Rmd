@@ -15,6 +15,7 @@ mySP$RelID <- paste("Rel", 1:nrow(mySP), sep = "")
 
 melt.data <- function(data) {
   mySP.melt <- melt(data, id.vars = c("RelID", "ID", "Relationship"), value.name = "relationship.type", variable.name = "time.period")
+  mySP.melt
 }
 
 
@@ -44,6 +45,7 @@ head(mySP.subset)
 # running the function on the new dataset:
 melt.data2 <- function(data) {
   mySP.melt2 <- melt(data, id.vars = c("RelID", "ID", "Relationship"), value.name = "relationship.type", variable.name = "time.period")
+  mySP.melt2
 }
 
 melt.data2(mySP.subset)
@@ -59,16 +61,43 @@ mySP.melt2
 
 ```{r}
 
-max.reltype <- function(data) {
-  group_by(data, time.period)
-  output <- summarize(data, maxrel = max(relationship.type))
-}
+# NOT with a Function
 
-max.reltype(mySP.melt)
+## get the mean for each time period
+step1 <- mySP.melt %>%
+  group_by(time.period) %>%
+  summarize(mean = mean(relationship.type))
+step1
+
+## merge into the melted dataframe
+mySP.melt <- merge(mySP.melt, step1)
 head(mySP.melt)
 
-output
+## include it in the casted version
+mySP.cast2 <- dcast(mySP.melt, time.period ~ relationship.type)
 
-#the only way I can do a summary statistic that is meaningful is to recast the data into the distributions - I tried to get the maximum value of the relationship.type column of the .melt data as the output as a test, but it continues to give me errors saying that the .data value is not in the summarize() part of the code. Not sure how to fix it.
+mySP.cast2 <- merge(mySP.cast2, step1)
+
+# WITH a Function
+
+mean <- function(data) {
+  group_by(data, time.period)
+  step1 <- summarize(data, mean = mean(relationship.type))
+  step1
+  result <- dcast(data, time.period ~ relationship.type)
+  result <- merge(result, step1)
+  result
+}
+
+mean(mySP.melt)
 
 ```
+
+
+#Notes from discussion:
+
+```{r}
+get("x") #lets you recover/recall the object with the name of "x" - works to recall a variable with a string name
+```
+
+
