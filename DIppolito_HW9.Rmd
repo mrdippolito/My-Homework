@@ -10,10 +10,9 @@ library(reshape2)
 library(dplyr)
 
 mySP <- read.csv("SPTimePeriods.csv")
-mySP$RelID <- 1:nrow(mySP)
-mySP$RelID <- paste("Rel", 1:nrow(mySP), sep = "")
 
 melt.data <- function(data) {
+  data$RelID <- paste("Rel", 1:nrow(data), sep = "")
   mySP.melt <- melt(data, id.vars = c("RelID", "ID", "Relationship"), value.name = "relationship.type", variable.name = "time.period")
   mySP.melt
 }
@@ -38,12 +37,11 @@ mySP.melt
 
 
 mySP.subset <- select(mySP, ID:T5)
-mySP.subset$RelID <- 1:nrow(mySP.subset)
-mySP.subset$RelID <- paste("Rel", 1:nrow(mySP), sep = "")
 head(mySP.subset)
 
 # running the function on the new dataset:
 melt.data2 <- function(data) {
+  data$RelID <- paste("Rel", 1:nrow(data), sep = "")
   mySP.melt2 <- melt(data, id.vars = c("RelID", "ID", "Relationship"), value.name = "relationship.type", variable.name = "time.period")
   mySP.melt2
 }
@@ -70,13 +68,14 @@ step1 <- mySP.melt %>%
 step1
 
 ## merge into the melted dataframe
-mySP.melt <- merge(mySP.melt, step1)
-head(mySP.melt)
+### mySP.melt <- merge(mySP.melt, step1)
+### head(mySP.melt)
 
 ## include it in the casted version
-mySP.cast2 <- dcast(mySP.melt, time.period ~ relationship.type)
+mySP.cast2 <- dcast(mySP.melt, time.period ~ relationship.type, fun.aggregate = length)
 
 mySP.cast2 <- merge(mySP.cast2, step1)
+mySP.cast2
 
 # WITH a Function
 
