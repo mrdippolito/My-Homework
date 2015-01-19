@@ -1,0 +1,66 @@
+---
+title: "Day 10 Homework"
+output: html_document
+---
+
+1. Find some relationship in your data (e.g., correlation, comparison of means, etc.) that is "significant" (don't worry too much about what that might mean).
+
+```{r}
+
+library(reshape2)
+library(dplyr)
+
+# get melted dataset
+
+mySP <- read.csv("SPTimePeriods.csv")
+mySP$RelID <- 1:nrow(mySP)
+mySP$RelID <- paste("Rel", 1:nrow(mySP), sep = "")
+
+
+mytest <- t.test(mySP$T3, mySP$T4, paired = TRUE)
+pval <- mytest$p.value
+
+```
+
+
+2. Get an estimate of the effect size (e.g., the difference between means, or the correlation).
+
+```{r}
+nsim <- 1000
+
+results.table2 <- data.frame(diff = rep(NA, nsim), pval = NA)
+
+for(i in 1:nsim) {
+  simtest <- t.test(mySP$T3, mySP$T4, paired = TRUE)
+  simdiff <- simtest$estimate
+  pval <- simtest$p.value
+  results.table2[i, ] <- c(simdiff, pval)
+}
+
+results.table2
+
+```
+
+
+3. Simulate data with this effect size (either using mvrnorm or adding a simulated effect), but with a much smaller data sample.  In other words, simulate an underpowered study.
+
+```{r}
+
+#see above
+```
+
+
+4. Examine the amount of effect-size inflation via the "significance filter" by looking at the effect sizes from the simulations, for just the sims where the effect turned out significant.
+
+```{r}
+
+##don't know
+
+alpha <- .05
+results.sig2 <- filter(results.table2, pval < alpha)
+library(ggplot2)
+
+ggplot(results.table2, aes(diff)) + geom_histogram(aes(fill = significant)) + scale_fill_brewer(palette = "Set1") + geom_vline(xintercept = .3, linetype = 2) + facet_grid(significant ~ .)
+
+```
+
