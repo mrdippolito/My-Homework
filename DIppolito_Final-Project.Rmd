@@ -1,0 +1,94 @@
+---
+title: "DIppolito_Final Project"
+author: "Michelle D'Ippolito"
+date: "Wednesday, January 21, 2015"
+output: html_document
+------
+
+1) Get the distribution of relationships from T3-T7 and plot them on histograms
+
+```{r}
+#read in data
+library(reshape2)
+library(ggplot2)
+
+mySP <- read.csv("SPTimePeriods.csv")
+head(mySP)
+
+#add RelID column
+
+mySP$RelID <- 1:nrow(mySP)
+mySP$RelID <- paste("Rel", 1:nrow(mySP), sep = "")
+head(mySP)
+
+#create dataframe of just the timeperiods want
+mySP2 <- mySP[, c("ID","Relationship", "T3", "T4", "T5", "T6", "T7", "RelID")]
+head(mySP2)
+
+#melt mydf to get the correct variables
+mySP2.melt <- melt(mySP2, id.vars = c("RelID", "ID", "Relationship"), value.name = "relationship.type", variable.name = "time.period")
+summary(mySP2.melt)
+head(mySP2.melt)
+
+#recast the data to find the distributions
+mySP2.cast <- dcast(mySP2.melt, time.period ~ relationship.type)
+mySP2.cast
+
+mySP2.cast2 <- dcast(mySP2.melt, relationship.type ~ time.period)
+mySP2.cast2
+
+#plot a histogram
+mybaseplot <- ggplot(mySP2.melt, aes(x = time.period)) 
+mybaseplot + geom_histogram(aes(fill = time.period)) + facet_grid(. ~ relationship.type)
+```
+
+2) Create a network diagram of one time period across all the relationship types. 
+
+My original dataset had too many layers of information happening at once in order for the program to parse it correctly. As a result, I had to create a separate datafile for each of the time periods in question and remove the attributes of what kind of relationship the edge represents. This required manipulating the data outside of r to create a new file because it needed to be in a different fundamental format that I could not get to replicate in R.
+
+```{r}
+library(igraph)
+
+#creating a graph object for T3-T7 in igraph. 
+
+T3.csv <- read.csv("T3EdgeList.csv")
+T3.g <- graph.data.frame(T3.csv, directed = TRUE)
+T3.g
+T4.csv <- read.csv("T4EdgeList.csv")
+T4.g <- graph.data.frame(T4.csv, directed = TRUE)
+T4.g
+T5.csv <- read.csv("T5EdgeList.csv")
+T5.g <- graph.data.frame(T5.csv, directed = TRUE)
+T5.g
+T6.csv <- read.csv("T6EdgeList.csv")
+T6.g <- graph.data.frame(T6.csv, directed = TRUE)
+T6.g
+T7.csv <- read.csv("T7EdgeList.csv")
+T7.g <- graph.data.frame(T7.csv, directed = TRUE)
+T7.g
+
+#plotting the T3-T7 network diagrams
+
+T3 <- plot.igraph(T3.g, vertex.size = 3.5, edge.arrow.size = 0.4, vertex.label.dist = 0.3, vertex.label.degree = pi/2, vertex.label.cex = 0.75, main = "Time Period 3 July - December 1992", margin = -0.1, asp = -1)
+T4 <- plot.igraph(T4.g, vertex.size = 3.5, edge.arrow.size = 0.4, vertex.label.dist = 0.3, vertex.label.degree = pi/2, vertex.label.cex = 0.75, main = "Time Period 4 January - February 1993", margin = -0.1, asp = -1)
+T5 <- plot.igraph(T5.g, vertex.size = 3.5, edge.arrow.size = 0.4, vertex.label.dist = 0.3, vertex.label.degree = pi/2, vertex.label.cex = 0.75, main = "Time Period 5 March - April 1993", margin = -0.1, asp = -1)
+T6 <- plot.igraph(T6.g, vertex.size = 3.5, edge.arrow.size = 0.4, vertex.label.dist = 0.3, vertex.label.degree = pi/2, vertex.label.cex = 0.75, main = "Time Period 6 May - June 1993", margin = -0.1, asp = -1)
+T7 <- plot.igraph(T7.g, vertex.size = 3.5, edge.arrow.size = 0.4, vertex.label.dist = 0.3, vertex.label.degree = pi/2, vertex.label.cex = 0.75, main = "Time Period 7 July - August 1993", margin = -0.1, asp = -1)
+```
+
+3) Look at the distribution of centralization over the five time periods
+
+```{r}
+
+T3.cd <- centralization.degree(T3.g)
+T4.cd <- centralization.degree(T4.g)
+T5.cd <- centralization.degree(T5.g)
+T6.cd <- centralization.degree(T6.g)
+T7.cd <- centralization.degree(T7.g)
+
+
+```
+
+Conclusions
+
+The distribution of relationship types over the time periods decreased as time went on as can be seen in the histogram. This is also demonstrated in the five network diagrams above. Finally, the degree of centralization decreased over the five time periods from `r T3.cd$centralization` in time period 3 (July - December 1992) to `r T7.cd$centralization` in time period 7 (July - August 1993).
